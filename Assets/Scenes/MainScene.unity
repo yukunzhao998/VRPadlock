@@ -721,6 +721,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5964744854259160217, guid: 852a11fecc1877149be52139ea40a3be, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5964744854259160217, guid: 852a11fecc1877149be52139ea40a3be, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5964744854259160217, guid: 852a11fecc1877149be52139ea40a3be, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5964744854259160217, guid: 852a11fecc1877149be52139ea40a3be, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0000009362675
+      objectReference: {fileID: 0}
+    - target: {fileID: 5964744854259160217, guid: 852a11fecc1877149be52139ea40a3be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5964744854259160217, guid: 852a11fecc1877149be52139ea40a3be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 359.9999
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3404402356410622241, guid: 852a11fecc1877149be52139ea40a3be, type: 3}
     - {fileID: 3404402356410622242, guid: 852a11fecc1877149be52139ea40a3be, type: 3}
@@ -736,6 +760,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ae60cfa43388e449a7518f36418f81c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1461543238 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1190576548922380089, guid: 852a11fecc1877149be52139ea40a3be, type: 3}
+  m_PrefabInstance: {fileID: 1117920606}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1542142145 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8195010200551642025, guid: 852a11fecc1877149be52139ea40a3be, type: 3}
@@ -993,7 +1022,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdd058a5e671d8947a106edb41e392a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _numberPassword: 01000000020000000300000004000000
+  topLock: {fileID: 1461543238}
+  _numberPassword: 00000000050000000200000006000000
 --- !u!1 &1894583136 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7204087337769602194, guid: 852a11fecc1877149be52139ea40a3be, type: 3}
